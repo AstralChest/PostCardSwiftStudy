@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
     
 @IBAction func sendMailButtonPressed(sender: AnyObject) {
-    
+    //changed
      //hidden eh uma boleana
     messageLabel.hidden = false
     // text eh uma string
