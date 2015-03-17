@@ -14,9 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
-    
     @IBOutlet weak var mailButton: UIButton!
-    
+    @IBOutlet weak var messageNameLabel: UILabel!
 
     
     override func viewDidLoad() {
@@ -30,7 +29,17 @@ class ViewController: UIViewController {
     }
     
 @IBAction func sendMailButtonPressed(sender: AnyObject) {
-    //changed
+    
+    
+    
+    // namefield
+    messageNameLabel.hidden = false
+    messageNameLabel.text = enterNameTextField.text
+    messageNameLabel.textColor = UIColor.blueColor()
+    enterNameTextField.text = nil
+    enterMessageTextField.resignFirstResponder()
+    
+    //messagefield
      //hidden eh uma boleana
     messageLabel.hidden = false
     // text eh uma string
@@ -39,6 +48,7 @@ class ViewController: UIViewController {
     enterMessageTextField.text = nil
     mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
     enterMessageTextField.resignFirstResponder()
+    
     
     }
     
