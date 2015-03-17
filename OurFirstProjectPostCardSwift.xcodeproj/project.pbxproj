@@ -13,6 +13,8 @@
 		F23F06B11AB775D900C0CEFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23F06B01AB775D900C0CEFC /* Images.xcassets */; };
 		F23F06B41AB775D900C0CEFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23F06B21AB775D900C0CEFC /* LaunchScreen.xib */; };
 		F23F06C01AB775D900C0CEFC /* OurFirstProjectPostCardSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23F06BF1AB775D900C0CEFC /* OurFirstProjectPostCardSwiftTests.swift */; };
+		F23F06CA1AB77B0A00C0CEFC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F23F06C91AB77B0A00C0CEFC /* images.jpeg */; };
+		F23F06CC1AB77B1300C0CEFC /* Einstein_laughing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F23F06CB1AB77B1300C0CEFC /* Einstein_laughing.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F23F06B91AB775D900C0CEFC /* OurFirstProjectPostCardSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurFirstProjectPostCardSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23F06BE1AB775D900C0CEFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F23F06BF1AB775D900C0CEFC /* OurFirstProjectPostCardSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurFirstProjectPostCardSwiftTests.swift; sourceTree = "<group>"; };
+		F23F06C91AB77B0A00C0CEFC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		F23F06CB1AB77B1300C0CEFC /* Einstein_laughing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Einstein_laughing.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		F23F06A71AB775D900C0CEFC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F23F06CB1AB77B1300C0CEFC /* Einstein_laughing.jpeg */,
+				F23F06C91AB77B0A00C0CEFC /* images.jpeg */,
 				F23F06A81AB775D900C0CEFC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F23F06AF1AB775D900C0CEFC /* Main.storyboard in Resources */,
+				F23F06CA1AB77B0A00C0CEFC /* images.jpeg in Resources */,
 				F23F06B41AB775D900C0CEFC /* LaunchScreen.xib in Resources */,
+				F23F06CC1AB77B1300C0CEFC /* Einstein_laughing.jpeg in Resources */,
 				F23F06B11AB775D900C0CEFC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
